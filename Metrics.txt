@@ -1,0 +1,36 @@
+
+::::::::::::::::: OUTPUT DERIVATIONS :::::::::::::::::
+
+-----------------
+
+Accuracy: 85.9275053305%
+Cohen's Kappa Co-efficient (K): 0.534800888198
+Area Under the Receiver Operating Characteristics (AUROC): 0.709607543071
+
+-----------------
+
+Categorized Accuracies: 
+
+Actinic_Keratoses:      34.6153846154%
+Basal_Cell_Carcinoma:   73.3333333333%
+Benign_Keratosis:       38.6666666667%
+Dermatofibroma:         33.3333333333%
+Melanoma:               17.9487179487%
+Melanocytic_Nevi:       97.4700399467%
+Vascular_Skin_Lesions:  45.4545454545%
+
+-----------------
+
+Classification Report: 
+
+                       precision    recall  f1-score   support
+
+    Actinic_Keratoses       0.53      0.35      0.42        26
+ Basal_Cell_Carcinoma       0.88      0.73      0.80        30
+     Benign_Keratosis       0.53      0.39      0.45        75
+      Dermatofibroma        0.22      0.33      0.27         6
+             Melanoma       0.39      0.18      0.25        39
+     Melanocytic_Nevi       0.90      0.97      0.94       751
+Vascular_Skin_Lesions       1.00      0.45      0.62        11
+
+          avg / total       0.84      0.86      0.84       938

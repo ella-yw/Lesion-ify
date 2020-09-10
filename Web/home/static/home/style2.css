@@ -1,0 +1,41 @@
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*-- Reset-Code --*/
+html {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url('bg2.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height:100%;
+}
+body {
+	text-align:center;
+}
+.divs {
+	text-align: center;
+	font-family: Courier New;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+input[type="submit"]{
+    width: 50%;
+    background: #F44336;
+    border: none;
+    padding: 12px 0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    -webkit-transition: 0.5s all; /* Safari */
+    transition:  0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition:0.5 all;
+	-o-transition:0.5s all;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}

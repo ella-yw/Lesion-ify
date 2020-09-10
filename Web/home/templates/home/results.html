@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Results</title>
+<link rel="shortcut icon" href="{% static 'home/logo.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'home/logo.png' %}" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="{% static 'home/style2.css' %}">
+</head>
+
+<body class="main">
+<div class="divs" id="web_main" style="font-size:65px;margin-top:100px;">
+{% autoescape off %}
+	{{ msg_main }}
+{% endautoescape %}
+</div>
+<div class="divs" id="web_all" style="font-size:25px;margin-top:50px;">
+{% autoescape off %}
+	{{ msg_all }}
+{% endautoescape %}
+</div>                                                                     
+<br/><br/><br/>
+<input type="submit" name="predict" value="Print (to PDF)!" style="background-color:white;color:black;font-weight:bold" onclick="window.print();">
+</body>
+
+</html>
